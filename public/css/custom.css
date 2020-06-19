@@ -1,0 +1,254 @@
+body{
+  background:white;
+}
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    /* color: rgba(0, 0, 0, 0.767) */
+}
+
+.frame{
+  border:.5px solid rgba(128, 128, 128, 0.795);
+  /* border:.5px solid #f7f7f7; */
+  border-top:none;
+  /* border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  /* padding:10px; */
+  /* border-radius:5px; */
+}
+
+.frame >row{
+  padding:10px;
+}
+
+.headingStyle{
+  background:rgba(128, 128, 128, 0.795);
+ 
+   /* background:#5c9bce;  */
+   background:#cee2f5; 
+  color:black;
+  line-height:20px;
+  padding:10px;
+  font-size:16px;
+  margin-bottom:10px;
+  font-weight: bold;
+  border:1px solid #cee2f5;
+  /* border-bottom:1px solid #5c9bce; */
+  margin-bottom: 0;
+
+}
+
+input[type="file"] {
+  display: block;
+}
+.imageThumb {
+  max-height: 130px;
+  width:100px;
+  border: 1px solid;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom:none;
+}
+.pip {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}  
+
+#imageUploaded{
+  border:0.5px solid blue;
+  width:100%;
+  border-radius: 5px;
+  margin-bottom:10px;
+
+  min-height: 130px;
+  padding:10px;
+}
+
+#VideoUploaded{
+  border:0.5px solid blue;
+  width:100%;
+  border-radius: 5px;
+  margin-bottom:10px;
+  min-height: 130px;
+  padding:10px;
+}
+
+div#ui-datepicker-div {
+  z-index: 9999 !important;
+}
+
+.label{
+  width:130px;
+  /* border:2px solid black; */
+}
+
+/* .setToggleWidth{
+  width:100px;
+  border:2px solid black;
+
+} */
+
+
+
+/*THIS IS FOR ON OFF TOOGLE SWITCH*/
+/*.options{
+  /* position: relative; */
+  /*display: inline-block;
+  border:2px solid black;
+  width: 200px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+*/
+/*------ ADDED CSS ---------*/
+/*.on
+{
+  display: none;
+}
+
+.on
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 25%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 70%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+*/
+/*--------- END --------*/
+
+/* Rounded sliders */
+/*.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}*/
+
+/*
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round + label:after {
+  width: 58px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196;
+}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 60px;
+}
+
+/*END OF TOOGLE SWITCH*/
